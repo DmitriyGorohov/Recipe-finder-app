@@ -1,4 +1,58 @@
 .container {
-	width: calc(100% - 3rem);
-	margin: 0 auto;
+	width: 100%;
+	h4 {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-align: center;
+		font-size: 22px;
+		font-weight: 600;
+		margin-bottom: 10px;
+		color: coral;
+	}
+	img {
+		border-radius: 10px;
+		overflow: hidden;
+	}
+	.container__block {
+		width: 100%;
+		// display: flex;
+		// align-items: center;
+		// justify-content: space-between;
+		border: 1px solid coral;
+		padding: 10px;
+		border-radius: 10px;
+
+		a {
+			font-size: 16px;
+			font-weight: 400;
+			list-style: none;
+			color: coral;
+			margin-right: 30px;
+			&:hover {
+				opacity: 0.8;
+			}
+			&:active {
+				opacity: 1;
+			}
+		}
+		button {
+			outline: none;
+			cursor: pointer;
+			border-radius: 10px;
+			padding: 10px;
+			border: none;
+			background-color: coral;
+			color: white;
+
+			&:hover {
+				color: coral;
+				background-color: white;
+			}
+			&:active {
+				background-color: coral;
+				color: white;
+			}
+		}
+	}
 }

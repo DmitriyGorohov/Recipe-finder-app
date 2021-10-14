@@ -1,0 +1,31 @@
+.baner {
+	width: 100%;
+
+	.banner__block {
+		text-align: center;
+	}
+
+	.baner__title {
+		font-style: normal;
+		font-weight: 800;
+		font-size: 96px;
+		line-height: 108px;
+		color: coral;
+		svg {
+			margin-right: 5px;
+		}
+	}
+	@media (max-width: 800px) {
+		.baner__title {
+			font-size: 16px;
+			img {
+				width: 10px;
+				height: 10px;
+			}
+			svg {
+				width: 10px;
+				height: 10px;
+			}
+		}
+	}
+}
