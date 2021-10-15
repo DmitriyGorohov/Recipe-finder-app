@@ -1,5 +1,7 @@
 ### Приложение по поиску рецептов и продуктов
 
+[Ссылка на проект](https://food-eat-76c83.web.app/)
+
 ### API Used
 
 [The Open Movie Database APIs](https://www.edamam.com/)
