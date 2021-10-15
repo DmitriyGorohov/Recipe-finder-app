@@ -2,7 +2,7 @@
 
 ### API Used
 
-[The Open Movie Database APIs](https://www.edamam.com/)
+[The Open Database APIs](https://www.edamam.com/)
 
 - Method: `GET`
 - Search URL: `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
